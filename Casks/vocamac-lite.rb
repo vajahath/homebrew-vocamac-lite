@@ -19,11 +19,10 @@ cask "vocamac-lite" do
   app "VocaMac.app"
 
   caveats <<~EOS
-    VocaMac Lite is not code-signed with an Apple Developer ID.
-    Install with --no-quarantine so macOS lets it launch:
-      brew install --cask vocamac-lite --no-quarantine
-    Or, if already installed:
+    VocaMac Lite is not code-signed with an Apple Developer ID, so macOS
+    quarantines it. Allow it to launch by removing the quarantine flag:
       xattr -dr com.apple.quarantine /Applications/VocaMac.app
+    (or right-click the app in Finder and choose Open).
   EOS
 
   zap trash: [
