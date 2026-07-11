@@ -2,8 +2,7 @@ cask "vocamac-lite" do
   version "1.0.0"
   sha256 "bc826e5d20ee80c497c0fb455f53b86e4d48ae440afacbb1da5378f4de292e2c"
 
-  url "https://github.com/vajahath/vocamac-lite/releases/download/v#{version}/VocaMac-#{version}-arm64.dmg",
-      verified: "github.com/vajahath/vocamac-lite/"
+  url "https://github.com/vajahath/vocamac-lite/releases/download/v#{version}/VocaMac-#{version}-arm64.dmg"
   name "VocaMac Lite"
   desc "Menu-bar dictation that transcribes on your own remote Whisper server"
   homepage "https://github.com/vajahath/vocamac-lite"
