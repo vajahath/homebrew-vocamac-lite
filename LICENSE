@@ -1,0 +1,4 @@
+This tap contains packaging metadata (a Homebrew cask) for VocaMac Lite.
+The cask formula is released into the public domain (CC0-1.0).
+VocaMac Lite itself is licensed under AGPL-3.0; see
+https://github.com/vajahath/vocamac-lite for its source and license.
