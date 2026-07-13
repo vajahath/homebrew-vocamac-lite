@@ -1,6 +1,6 @@
 cask "vocamac-lite" do
-  version "1.2.1"
-  sha256 "929b03a85e579531d4e19cd99b87e8e4455ec77a962dd87bd96a0fd1d2efa086"
+  version "1.3.0"
+  sha256 "5f33efe092fd5ea7d52af871533535071792420fb7202e7fcb57c5fa4be1169a"
 
   url "https://github.com/vajahath/vocamac-lite/releases/download/v#{version}/VocaMac-#{version}-arm64.dmg"
   name "VocaMac Lite"
